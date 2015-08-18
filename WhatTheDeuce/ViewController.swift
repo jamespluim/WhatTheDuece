@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  WhatTheDuece
+//  WhatTheDeuce
 //
-//  Created by James Pluim on 8/17/15.
-//  Copyright (c) 2015 James Pluim. All rights reserved.
+//  Created by Fernando Miramontes on 8/17/15.
+//  Copyright (c) 2015 JoinUs. All rights reserved.
 //
 
 import UIKit
@@ -23,7 +23,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet var verticalAccuracyLabel:UILabel!
     @IBOutlet var distanceTraveledLabel:UILabel!
     @IBOutlet var mapView:MKMapView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,7 +33,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -100,11 +100,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         let distanceString = String(format: "%gm", totalMovementDistance)
         distanceTraveledLabel.text = distanceString
-        
+    
     }
-    
-    
+
+
 }
-
-
 
