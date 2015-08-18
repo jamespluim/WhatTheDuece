@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF6E73B21B82F3DA007AF91E /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E73B11B82F3DA007AF91E /* Place.swift */; };
+		CF6E73B41B82F3F4007AF91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6E73B31B82F3F4007AF91E /* Main.storyboard */; };
+		CF6E73B61B82F459007AF91E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6E73B51B82F459007AF91E /* MapKit.framework */; };
 		EFBB7D1F1B82DFB2005B3F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB7D1E1B82DFB2005B3F2D /* AppDelegate.swift */; };
 		EFBB7D211B82DFB2005B3F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB7D201B82DFB2005B3F2D /* ViewController.swift */; };
-		EFBB7D241B82DFB2005B3F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBB7D221B82DFB2005B3F2D /* Main.storyboard */; };
 		EFBB7D261B82DFB2005B3F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB7D251B82DFB2005B3F2D /* Images.xcassets */; };
 		EFBB7D291B82DFB2005B3F2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBB7D271B82DFB2005B3F2D /* LaunchScreen.xib */; };
 		EFBB7D351B82DFB2005B3F2D /* WhatTheDueceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB7D341B82DFB2005B3F2D /* WhatTheDueceTests.swift */; };
@@ -26,11 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF6E73B11B82F3DA007AF91E /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		CF6E73B31B82F3F4007AF91E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CF6E73B51B82F459007AF91E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EFBB7D191B82DFB2005B3F2D /* WhatTheDuece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatTheDuece.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBB7D1D1B82DFB2005B3F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFBB7D1E1B82DFB2005B3F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFBB7D201B82DFB2005B3F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFBB7D231B82DFB2005B3F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFBB7D251B82DFB2005B3F2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFBB7D281B82DFB2005B3F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EFBB7D2E1B82DFB2005B3F2D /* WhatTheDueceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatTheDueceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6E73B61B82F459007AF91E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		EFBB7D101B82DFB2005B3F2D = {
 			isa = PBXGroup;
 			children = (
+				CF6E73B51B82F459007AF91E /* MapKit.framework */,
 				EFBB7D1B1B82DFB2005B3F2D /* WhatTheDuece */,
 				EFBB7D311B82DFB2005B3F2D /* WhatTheDueceTests */,
 				EFBB7D1A1B82DFB2005B3F2D /* Products */,
@@ -79,7 +85,8 @@
 			children = (
 				EFBB7D1E1B82DFB2005B3F2D /* AppDelegate.swift */,
 				EFBB7D201B82DFB2005B3F2D /* ViewController.swift */,
-				EFBB7D221B82DFB2005B3F2D /* Main.storyboard */,
+				CF6E73B31B82F3F4007AF91E /* Main.storyboard */,
+				CF6E73B11B82F3DA007AF91E /* Place.swift */,
 				EFBB7D251B82DFB2005B3F2D /* Images.xcassets */,
 				EFBB7D271B82DFB2005B3F2D /* LaunchScreen.xib */,
 				EFBB7D1C1B82DFB2005B3F2D /* Supporting Files */,
@@ -161,6 +168,11 @@
 				TargetAttributes = {
 					EFBB7D181B82DFB2005B3F2D = {
 						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EFBB7D2D1B82DFB2005B3F2D = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -192,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBB7D241B82DFB2005B3F2D /* Main.storyboard in Resources */,
+				CF6E73B41B82F3F4007AF91E /* Main.storyboard in Resources */,
 				EFBB7D291B82DFB2005B3F2D /* LaunchScreen.xib in Resources */,
 				EFBB7D261B82DFB2005B3F2D /* Images.xcassets in Resources */,
 			);
@@ -212,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6E73B21B82F3DA007AF91E /* Place.swift in Sources */,
 				EFBB7D211B82DFB2005B3F2D /* ViewController.swift in Sources */,
 				EFBB7D1F1B82DFB2005B3F2D /* AppDelegate.swift in Sources */,
 			);
@@ -236,14 +249,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EFBB7D221B82DFB2005B3F2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFBB7D231B82DFB2005B3F2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFBB7D271B82DFB2005B3F2D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +414,7 @@
 				EFBB7D3A1B82DFB2005B3F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFBB7D3B1B82DFB2005B3F2D /* Build configuration list for PBXNativeTarget "WhatTheDueceTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +423,7 @@
 				EFBB7D3D1B82DFB2005B3F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
