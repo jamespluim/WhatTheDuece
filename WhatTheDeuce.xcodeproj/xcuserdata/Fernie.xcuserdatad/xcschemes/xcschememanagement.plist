@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WhatTheDuece.xcscheme</key>
+		<key>WhatTheDeuce.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EFBB7D181B82DFB2005B3F2D</key>
+		<key>CF6E73841B82BD67007AF91E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EFBB7D2D1B82DFB2005B3F2D</key>
+		<key>CF6E739C1B82BD67007AF91E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
