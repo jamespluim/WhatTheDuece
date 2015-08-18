@@ -6,15 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		EFBB7D1F1B82DFB2005B3F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB7D1E1B82DFB2005B3F2D /* AppDelegate.swift */; };
-		EFBB7D211B82DFB2005B3F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB7D201B82DFB2005B3F2D /* ViewController.swift */; };
-		EFBB7D241B82DFB2005B3F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBB7D221B82DFB2005B3F2D /* Main.storyboard */; };
-		EFBB7D261B82DFB2005B3F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB7D251B82DFB2005B3F2D /* Images.xcassets */; };
-		EFBB7D291B82DFB2005B3F2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBB7D271B82DFB2005B3F2D /* LaunchScreen.xib */; };
-		EFBB7D351B82DFB2005B3F2D /* WhatTheDueceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB7D341B82DFB2005B3F2D /* WhatTheDueceTests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		EFBB7D2F1B82DFB2005B3F2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -26,16 +17,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EFBB7D191B82DFB2005B3F2D /* WhatTheDuece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatTheDuece.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFBB7D1D1B82DFB2005B3F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFBB7D1E1B82DFB2005B3F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFBB7D201B82DFB2005B3F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFBB7D231B82DFB2005B3F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EFBB7D251B82DFB2005B3F2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EFBB7D281B82DFB2005B3F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EFBB7D2E1B82DFB2005B3F2D /* WhatTheDueceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatTheDueceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFBB7D331B82DFB2005B3F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFBB7D341B82DFB2005B3F2D /* WhatTheDueceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatTheDueceTests.swift; sourceTree = "<group>"; };
+		EFBB7D191B82DFB2005B3F2D /* WhatTheDuece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = WhatTheDuece.app; path = "/Users/Fernie/WhatTheDuece/build/Debug-iphoneos/WhatTheDuece.app"; sourceTree = "<absolute>"; };
+		EFBB7D2E1B82DFB2005B3F2D /* WhatTheDueceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WhatTheDueceTests.xctest; path = "/Users/Fernie/WhatTheDuece/build/Debug-iphoneos/WhatTheDueceTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,57 +42,7 @@
 		EFBB7D101B82DFB2005B3F2D = {
 			isa = PBXGroup;
 			children = (
-				EFBB7D1B1B82DFB2005B3F2D /* WhatTheDuece */,
-				EFBB7D311B82DFB2005B3F2D /* WhatTheDueceTests */,
-				EFBB7D1A1B82DFB2005B3F2D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		EFBB7D1A1B82DFB2005B3F2D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB7D191B82DFB2005B3F2D /* WhatTheDuece.app */,
-				EFBB7D2E1B82DFB2005B3F2D /* WhatTheDueceTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EFBB7D1B1B82DFB2005B3F2D /* WhatTheDuece */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB7D1E1B82DFB2005B3F2D /* AppDelegate.swift */,
-				EFBB7D201B82DFB2005B3F2D /* ViewController.swift */,
-				EFBB7D221B82DFB2005B3F2D /* Main.storyboard */,
-				EFBB7D251B82DFB2005B3F2D /* Images.xcassets */,
-				EFBB7D271B82DFB2005B3F2D /* LaunchScreen.xib */,
-				EFBB7D1C1B82DFB2005B3F2D /* Supporting Files */,
-			);
-			path = WhatTheDuece;
-			sourceTree = "<group>";
-		};
-		EFBB7D1C1B82DFB2005B3F2D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB7D1D1B82DFB2005B3F2D /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EFBB7D311B82DFB2005B3F2D /* WhatTheDueceTests */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB7D341B82DFB2005B3F2D /* WhatTheDueceTests.swift */,
-				EFBB7D321B82DFB2005B3F2D /* Supporting Files */,
-			);
-			path = WhatTheDueceTests;
-			sourceTree = "<group>";
-		};
-		EFBB7D321B82DFB2005B3F2D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EFBB7D331B82DFB2005B3F2D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +110,7 @@
 				Base,
 			);
 			mainGroup = EFBB7D101B82DFB2005B3F2D;
-			productRefGroup = EFBB7D1A1B82DFB2005B3F2D /* Products */;
+			productRefGroup = EFBB7D101B82DFB2005B3F2D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -192,9 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBB7D241B82DFB2005B3F2D /* Main.storyboard in Resources */,
-				EFBB7D291B82DFB2005B3F2D /* LaunchScreen.xib in Resources */,
-				EFBB7D261B82DFB2005B3F2D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBB7D211B82DFB2005B3F2D /* ViewController.swift in Sources */,
-				EFBB7D1F1B82DFB2005B3F2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +149,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBB7D351B82DFB2005B3F2D /* WhatTheDueceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +161,6 @@
 			targetProxy = EFBB7D2F1B82DFB2005B3F2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EFBB7D221B82DFB2005B3F2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFBB7D231B82DFB2005B3F2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EFBB7D271B82DFB2005B3F2D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFBB7D281B82DFB2005B3F2D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EFBB7D361B82DFB2005B3F2D /* Debug */ = {
@@ -409,6 +317,7 @@
 				EFBB7D3A1B82DFB2005B3F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFBB7D3B1B82DFB2005B3F2D /* Build configuration list for PBXNativeTarget "WhatTheDueceTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +326,7 @@
 				EFBB7D3D1B82DFB2005B3F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
