@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3E5D94EF-3F4B-459E-9263-A9066D9A1CF0</string>
 	<key>IDESourceControlProjectName</key>
-	<string>WhatTheDuece</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>49530E266C687D244CE1F9A6498FB02247606688</key>
 		<string>https://github.com/jamespluim/WhatTheDuece.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WhatTheDuece.xcodeproj</string>
+	<string>WhatTheDuece.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>49530E266C687D244CE1F9A6498FB02247606688</key>
